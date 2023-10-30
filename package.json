@@ -8,9 +8,9 @@
     "type": "git",
     "url": "git+https://github.com/davewasmer/ministry-id.git"
   },
-  "private": true,
+  "private": false,
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
     "build": "pnpm run clean && rollup -c",
