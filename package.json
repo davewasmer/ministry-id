@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/davewasmer/node-library-boilerplate.git"
   },
+  "private": true,
   "scripts": {
     "build": "pnpm run clean && rollup -c",
     "clean": "rm -rf dist",

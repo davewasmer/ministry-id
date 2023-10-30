@@ -13,5 +13,6 @@ To start developing:
 To release:
 
 1. `hub create [repo name]`
-2. Run `pnpm dlx semantic-release-cli setup`
-3. Remove these instructions, update package.json description
+2. Update `private: true/false` in package.json as needed
+3. Run `pnpm dlx semantic-release-cli setup`
+4. Remove these instructions, update package.json description
