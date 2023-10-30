@@ -4,9 +4,14 @@ Basic setup for a Typescript Node.js (or runtime agnostic) library.
 
 ## Usage
 
+To start developing:
+
 1. Clone the repo
 2. Rename all references to `node-library-boilerplate`
 3. `pnpm install`
-4. Remove and reinitialize .git (skip if you want to be able to rebase on boilerplate updates)
-5. `hub create [repo name]`
-6. Run `pnpm dlx semantic-release-cli setup`
+
+To release:
+
+1. `hub create [repo name]`
+2. Run `pnpm dlx semantic-release-cli setup`
+3. Remove these instructions, update package.json description
