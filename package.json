@@ -1,12 +1,12 @@
 {
   "name": "@ministry/id",
   "version": "0.0.0-development",
-  "description": "Basic setup for a Typescript Node.js (or runtime agnostic) library.",
+  "description": "Common unique ID utilities",
   "main": "dist/index.js",
   "module": "dist/index-esm.mjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davewasmer/ministry-id.git"
+    "url": "git+https://github.com/davewasmer/ministry-id.git"
   },
   "private": true,
   "publishConfig": {
