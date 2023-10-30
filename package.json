@@ -1,12 +1,12 @@
 {
-  "name": "node-library-boilerplate",
+  "name": "@ministry/id",
   "version": "0.0.0-development",
   "description": "Basic setup for a Typescript Node.js (or runtime agnostic) library.",
   "main": "dist/index.js",
   "module": "dist/index-esm.mjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davewasmer/node-library-boilerplate.git"
+    "url": "https://github.com/davewasmer/ministry-id.git"
   },
   "private": true,
   "publishConfig": {
@@ -36,5 +36,10 @@
     "semantic-release": "^22.0.5",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "change-case": "^5.1.2",
+    "zod": "^3.22.4"
   }
 }
