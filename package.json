@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/davewasmer/ministry-id.git"
   },
+  "private": false,
   "scripts": {
     "build": "pnpm run clean && rollup -c",
     "clean": "rm -rf dist",
