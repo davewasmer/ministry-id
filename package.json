@@ -9,6 +9,9 @@
     "url": "git+https://github.com/davewasmer/node-library-boilerplate.git"
   },
   "private": true,
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "build": "pnpm run clean && rollup -c",
     "clean": "rm -rf dist",
